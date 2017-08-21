@@ -1,0 +1,15 @@
+<view class="box">
+  <view class="title">您要查询的是：</view>
+  <input type="text"  class="text" bindinput="searchTxt" value="{{keys}}" placeholder="输入要查询的城市名称" />
+  <button class="btn" bindtap="searchBtn" size="mini" disabled="{{disable}}">查询</button>
+
+<view class="weizhi">您的当前位置：<text>{{pos.desc}}</text>  </view>
+  <view class="msgWrap">
+        <view class="wendu">{{tqwd.wendu}}℃</view>
+        <view class="msg1">{{todaytq.low}}/{{todaytq.high}}</view>
+        <view class="msg2">{{todaytq.type}}</view>
+        <view class="msg3">{{todaytq.city}}</view>
+        <view class="msg4">{{todaytq.date}}</view>
+        <view class="msg5">{{todaytq.fengxiang}} {{todaytq.fengli}}</view>
+  </view>
+</view>

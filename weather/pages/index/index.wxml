@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="msgWrap">
+        <view class="wendu">{{weatherInfo.wendu}}℃</view>
+        <view class="msg1">{{todayweather.low}}/{{todayweather.high}}</view>
+        <view class="msg2">{{todayweather.type}}</view>
+        <view class="msg3">{{city}}</view>
+        <view class="msg4">{{todayweather.date}}</view>
+        <view class="msg5">{{todayweather.fengxiang}} {{todayweather.fengli}}</view>
+  </view>
+  <view class="msgSub">
+      <view class="msgSub1">
+          <view class="main1 cont" wx:for="{{otherweather}}" wx:for-item="otherwt" wx:key="tq">
+              <view>{{otherwt.type}}</view>
+              <view>{{otherwt.low}}/{{otherwt.high}}</view>
+              <view>{{otherwt.date}}</view>
+              <view>{{otherwt.fengxiang}}</view>
+              <view>{{otherwt.fengli}}</view>
+          </view> 
+       
+      </view>
+      <view class="msgSub2">
+        <view class="tishi">
+        <text>{{weatherInfo.ganmao}}</text>
+        </view>
+      </view>
+  </view>
+</view>

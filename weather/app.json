@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"linear-gradient(#001F41,#001E41)",
+    "navigationBarBackgroundColor": "#031E3D",
+    "navigationBarTitleText": "中国天气网",
+    "navigationBarTextStyle":"white"
+  },
+
+  "debug":true
+}

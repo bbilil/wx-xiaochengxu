@@ -1,0 +1,71 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container {
+  padding: 0;
+  color: white;
+  display: block;
+  text-align: center;
+  
+}
+.msgWrap{
+  padding:95rpx 0;
+  width: 100%;
+  background: linear-gradient(#002042,#001E41); 
+  border-bottom: 2px solid #C2C4D7;
+}
+.wendu{
+  color: white;
+  font-size: 80px;
+  position: relative;
+  top: 0;
+}
+.msg1,.msg4,.msg5{
+  font-size: 12px;
+  line-height: 25px
+}
+.msg2,.msg3{
+  font-size:14px; 
+  line-height: 25px
+}
+.msgSub{
+  width: 100%;
+  background:#002142;
+}
+.msgSub1{
+  display: flex;
+  padding: 40px 0 25px;
+}
+.main1,.main2,.main3,.main4{
+  flex: 1;
+}
+.cont view{
+  font-size: 12px;
+  line-height: 25px;
+} 
+.msgSub2 .tishi{
+  text-align: left;
+  padding: 0 5px 10px;
+}
+.msgSub2 .tishi text{
+  font-size: 12px;
+}
